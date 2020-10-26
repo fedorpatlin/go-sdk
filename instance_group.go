@@ -1,6 +1,6 @@
 package ycsdk
 
-import "github.com/yandex-cloud/go-sdk/gen/compute/instancegroup"
+import "github.com/fedorpatlin/go-sdk/gen/compute/instancegroup"
 
 const InstancegroupServiceID Endpoint = "compute"
 

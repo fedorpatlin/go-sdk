@@ -10,7 +10,7 @@ import (
 	mysql "github.com/yandex-cloud/go-genproto/yandex/cloud/mdb/mysql/v1"
 	"github.com/yandex-cloud/go-genproto/yandex/cloud/mdb/postgresql/v1"
 	redis "github.com/yandex-cloud/go-genproto/yandex/cloud/mdb/redis/v1"
-	ycsdk "github.com/yandex-cloud/go-sdk"
+	ycsdk "github.com/fedorpatlin/go-sdk"
 )
 
 func PostgreSQLClusterResolver(name string, opts ...ResolveOption) ycsdk.Resolver {

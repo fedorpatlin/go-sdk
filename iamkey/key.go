@@ -13,8 +13,8 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	yaml "gopkg.in/yaml.v2"
 
+	"github.com/fedorpatlin/go-sdk/pkg/sdkerrors"
 	"github.com/yandex-cloud/go-genproto/yandex/cloud/iam/v1"
-	"github.com/yandex-cloud/go-sdk/pkg/sdkerrors"
 )
 
 var (

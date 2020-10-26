@@ -15,7 +15,7 @@ import (
 	"google.golang.org/grpc/status"
 
 	"github.com/yandex-cloud/go-genproto/yandex/cloud/compute/v1"
-	"github.com/yandex-cloud/go-sdk/pkg/testutil"
+	"github.com/fedorpatlin/go-sdk/pkg/testutil"
 )
 
 type ZoneServerHandler interface {

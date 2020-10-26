@@ -6,7 +6,7 @@ import (
 	"google.golang.org/grpc"
 
 	k8s "github.com/yandex-cloud/go-genproto/yandex/cloud/k8s/v1"
-	ycsdk "github.com/yandex-cloud/go-sdk"
+	ycsdk "github.com/fedorpatlin/go-sdk"
 )
 
 type kubernetesClusterResolver struct {

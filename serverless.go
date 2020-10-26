@@ -1,8 +1,8 @@
 package ycsdk
 
 import (
-	"github.com/yandex-cloud/go-sdk/gen/functions"
-	"github.com/yandex-cloud/go-sdk/gen/triggers"
+	"github.com/fedorpatlin/go-sdk/gen/functions"
+	"github.com/fedorpatlin/go-sdk/gen/triggers"
 )
 
 type Serverless struct {

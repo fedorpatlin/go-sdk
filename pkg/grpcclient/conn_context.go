@@ -11,7 +11,7 @@ import (
 	multierror "github.com/hashicorp/go-multierror"
 	"google.golang.org/grpc"
 
-	"github.com/yandex-cloud/go-sdk/pkg/singleflight"
+	"github.com/fedorpatlin/go-sdk/pkg/singleflight"
 )
 
 var ErrConnContextClosed = errors.New("grpcutil: client connection context closed")

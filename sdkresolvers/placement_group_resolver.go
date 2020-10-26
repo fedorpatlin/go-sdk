@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc"
 
 	compute "github.com/yandex-cloud/go-genproto/yandex/cloud/compute/v1"
-	ycsdk "github.com/yandex-cloud/go-sdk"
+	ycsdk "github.com/fedorpatlin/go-sdk"
 )
 
 type placementGroupResolver struct {

@@ -2,7 +2,7 @@
 
 package ycsdk
 
-import "github.com/yandex-cloud/go-sdk/gen/loadbalancer"
+import "github.com/fedorpatlin/go-sdk/gen/loadbalancer"
 
 const (
 	LoadBalancerServiceID Endpoint = "load-balancer"

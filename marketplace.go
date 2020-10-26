@@ -4,7 +4,7 @@
 package ycsdk
 
 import (
-	"github.com/yandex-cloud/go-sdk/gen/marketplace/metering"
+	"github.com/fedorpatlin/go-sdk/gen/marketplace/metering"
 )
 
 const (

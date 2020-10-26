@@ -4,7 +4,7 @@
 package ycsdk
 
 import (
-	"github.com/yandex-cloud/go-sdk/gen/iot/devices"
+	"github.com/fedorpatlin/go-sdk/gen/iot/devices"
 )
 
 const (

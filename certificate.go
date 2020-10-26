@@ -1,8 +1,8 @@
 package ycsdk
 
 import (
-	"github.com/yandex-cloud/go-sdk/gen/certificatemanager"
-	certificatemanagerdata "github.com/yandex-cloud/go-sdk/gen/certificatemanagerdata"
+	"github.com/fedorpatlin/go-sdk/gen/certificatemanager"
+	certificatemanagerdata "github.com/fedorpatlin/go-sdk/gen/certificatemanagerdata"
 )
 
 const (

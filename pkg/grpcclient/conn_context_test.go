@@ -15,7 +15,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"github.com/yandex-cloud/go-sdk/pkg/testutil"
+	"github.com/fedorpatlin/go-sdk/pkg/testutil"
 )
 
 func startServer(ctx context.Context, t *testing.T, l net.Listener) {

@@ -8,7 +8,7 @@ import (
 	"google.golang.org/grpc"
 
 	dataproc "github.com/yandex-cloud/go-genproto/yandex/cloud/dataproc/v1"
-	ycsdk "github.com/yandex-cloud/go-sdk"
+	ycsdk "github.com/fedorpatlin/go-sdk"
 )
 
 type dataprocClusterResolver struct {

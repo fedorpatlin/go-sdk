@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc"
 
 	"github.com/yandex-cloud/go-genproto/yandex/cloud/iam/v1"
-	ycsdk "github.com/yandex-cloud/go-sdk"
+	ycsdk "github.com/fedorpatlin/go-sdk"
 )
 
 type serviceAccountResolver struct {

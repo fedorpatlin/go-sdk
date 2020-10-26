@@ -1,8 +1,8 @@
 package ycsdk
 
 import (
-	"github.com/yandex-cloud/go-sdk/gen/kms"
-	kmscrypto "github.com/yandex-cloud/go-sdk/gen/kmscrypto"
+	"github.com/fedorpatlin/go-sdk/gen/kms"
+	kmscrypto "github.com/fedorpatlin/go-sdk/gen/kmscrypto"
 )
 
 const (

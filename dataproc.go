@@ -2,7 +2,7 @@
 
 package ycsdk
 
-import "github.com/yandex-cloud/go-sdk/gen/dataproc"
+import "github.com/fedorpatlin/go-sdk/gen/dataproc"
 
 const DataProcServiceID = "dataproc"
 

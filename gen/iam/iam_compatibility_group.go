@@ -4,7 +4,7 @@
 package iam
 
 import (
-	"github.com/yandex-cloud/go-sdk/gen/iam/awscompatibility"
+	"github.com/fedorpatlin/go-sdk/gen/iam/awscompatibility"
 )
 
 func (i *IAM) AWSCompatibility() *awscompatibility.AWSCompatibility {

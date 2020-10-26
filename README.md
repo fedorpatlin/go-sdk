@@ -1,6 +1,6 @@
 # Yandex.Cloud Go SDK
 
-[![GoDoc](https://godoc.org/github.com/yandex-cloud/go-sdk?status.svg)](https://godoc.org/github.com/yandex-cloud/go-sdk)
+[![GoDoc](https://godoc.org/github.com/fedorpatlin/go-sdk?status.svg)](https://godoc.org/github.com/fedorpatlin/go-sdk)
 [![CircleCI](https://circleci.com/gh/yandex-cloud/go-sdk.svg?style=shield)](https://circleci.com/gh/yandex-cloud/go-sdk)
 
 Go SDK for Yandex.Cloud services.
@@ -11,7 +11,7 @@ backwards-incompatible changes.
 ## Installation
 
 ```bash
-go get github.com/yandex-cloud/go-sdk
+go get github.com/fedorpatlin/go-sdk
 ```
 
 ## Example usages

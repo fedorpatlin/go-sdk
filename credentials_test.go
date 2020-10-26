@@ -19,7 +19,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/yandex-cloud/go-sdk/iamkey"
+	"github.com/fedorpatlin/go-sdk/iamkey"
 )
 
 func TestOAuthToken(t *testing.T) {

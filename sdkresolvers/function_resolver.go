@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc"
 
 	functions "github.com/yandex-cloud/go-genproto/yandex/cloud/serverless/functions/v1"
-	ycsdk "github.com/yandex-cloud/go-sdk"
+	ycsdk "github.com/fedorpatlin/go-sdk"
 )
 
 type functionResolver struct {

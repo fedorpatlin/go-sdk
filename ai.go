@@ -3,9 +3,9 @@
 package ycsdk
 
 import (
-	"github.com/yandex-cloud/go-sdk/gen/ai/stt"
-	"github.com/yandex-cloud/go-sdk/gen/ai/translate"
-	"github.com/yandex-cloud/go-sdk/gen/ai/vision"
+	"github.com/fedorpatlin/go-sdk/gen/ai/stt"
+	"github.com/fedorpatlin/go-sdk/gen/ai/translate"
+	"github.com/fedorpatlin/go-sdk/gen/ai/vision"
 )
 
 const (

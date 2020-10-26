@@ -22,8 +22,8 @@ import (
 	"google.golang.org/grpc/status"
 
 	iampb "github.com/yandex-cloud/go-genproto/yandex/cloud/iam/v1"
-	"github.com/yandex-cloud/go-sdk/iamkey"
-	"github.com/yandex-cloud/go-sdk/pkg/sdkerrors"
+	"github.com/fedorpatlin/go-sdk/iamkey"
+	"github.com/fedorpatlin/go-sdk/pkg/sdkerrors"
 )
 
 // Credentials is an abstraction of API authorization credentials.

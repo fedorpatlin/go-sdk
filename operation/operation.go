@@ -18,8 +18,8 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
+	"github.com/fedorpatlin/go-sdk/pkg/sdkerrors"
 	"github.com/yandex-cloud/go-genproto/yandex/cloud/operation"
-	"github.com/yandex-cloud/go-sdk/pkg/sdkerrors"
 )
 
 // dummy import to avoid problems, when client app tries to unmarshall operation with empty response

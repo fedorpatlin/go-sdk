@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc"
 
 	loadbalancer "github.com/yandex-cloud/go-genproto/yandex/cloud/loadbalancer/v1"
-	ycsdk "github.com/yandex-cloud/go-sdk"
+	ycsdk "github.com/fedorpatlin/go-sdk"
 )
 
 type networkLoadBalancerResolver struct {

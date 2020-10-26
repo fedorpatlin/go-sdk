@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/yandex-cloud/go-sdk/pkg/sdkerrors"
+	"github.com/fedorpatlin/go-sdk/pkg/sdkerrors"
 )
 
 const DefaultResolverPageSize = 100

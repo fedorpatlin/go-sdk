@@ -6,7 +6,7 @@ import (
 	"google.golang.org/grpc"
 
 	iot "github.com/yandex-cloud/go-genproto/yandex/cloud/iot/devices/v1"
-	ycsdk "github.com/yandex-cloud/go-sdk"
+	ycsdk "github.com/fedorpatlin/go-sdk"
 )
 
 type deviceRegistryResolver struct {

@@ -6,7 +6,7 @@ jobs:
   build:
     docker:
       - image: circleci/golang:1.13
-    working_directory: /go/src/github.com/yandex-cloud/go-sdk
+    working_directory: /go/src/github.com/fedorpatlin/go-sdk
     steps:
       - checkout
       - run: go build
@@ -21,7 +21,7 @@ jobs:
   test:
     docker:
       - image: golang:1.13
-    working_directory: /go/src/github.com/yandex-cloud/go-sdk
+    working_directory: /go/src/github.com/fedorpatlin/go-sdk
     steps:
       - checkout
       - run: go test -v -race ./...

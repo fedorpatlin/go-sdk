@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc"
 
 	triggers "github.com/yandex-cloud/go-genproto/yandex/cloud/serverless/triggers/v1"
-	ycsdk "github.com/yandex-cloud/go-sdk"
+	ycsdk "github.com/fedorpatlin/go-sdk"
 )
 
 type triggerResolver struct {

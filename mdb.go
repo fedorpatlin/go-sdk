@@ -4,11 +4,11 @@
 package ycsdk
 
 import (
-	"github.com/yandex-cloud/go-sdk/gen/mdb/clickhouse"
-	"github.com/yandex-cloud/go-sdk/gen/mdb/mongodb"
-	"github.com/yandex-cloud/go-sdk/gen/mdb/mysql"
-	"github.com/yandex-cloud/go-sdk/gen/mdb/postgresql"
-	"github.com/yandex-cloud/go-sdk/gen/mdb/redis"
+	"github.com/fedorpatlin/go-sdk/gen/mdb/clickhouse"
+	"github.com/fedorpatlin/go-sdk/gen/mdb/mongodb"
+	"github.com/fedorpatlin/go-sdk/gen/mdb/mysql"
+	"github.com/fedorpatlin/go-sdk/gen/mdb/postgresql"
+	"github.com/fedorpatlin/go-sdk/gen/mdb/redis"
 )
 
 const (
