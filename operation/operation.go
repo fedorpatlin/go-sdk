@@ -148,7 +148,7 @@ func (o *Operation) waitInterval(ctx context.Context, pollInterval time.Duration
 
 	// Sometimes, the returned operation is not on all replicas yet,
 	// so we need to ignore first couple of NotFound errors.
-	const maxNotFoundRetry = 3
+	const maxNotFoundRetry = 13
 	notFoundCount := 0
 	for !o.Done() {
 		headers = metadata.MD{}
