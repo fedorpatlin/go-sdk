@@ -14,7 +14,6 @@ import (
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/golang/protobuf/ptypes/empty"
 	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
@@ -186,6 +185,7 @@ func (o *Operation) waitInterval(ctx context.Context, pollInterval time.Duration
 }
 
 func shoudRetry(err error) bool {
-	status, ok := status.FromError(err)
-	return ok && status.Code() == codes.NotFound
+	// status, ok := status.FromError(err)
+	// return ok && status.Code() == codes.NotFound
+	return true
 }
