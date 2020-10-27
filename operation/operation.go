@@ -14,6 +14,7 @@ import (
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/golang/protobuf/ptypes/empty"
 	"google.golang.org/grpc"
+	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
@@ -153,7 +154,7 @@ func (o *Operation) waitInterval(ctx context.Context, pollInterval time.Duration
 		headers = metadata.MD{}
 		err := o.Poll(ctx, opts...)
 		if err != nil {
-			if notFoundCount < maxNotFoundRetry && shoudRetry(err) {
+			if notFoundCount < maxNotFoundRetry && shouldRetry(err) {
 				notFoundCount++
 			} else {
 				// Message needed to distinguish poll fail and operation error, which are both gRPC status.
@@ -184,8 +185,7 @@ func (o *Operation) waitInterval(ctx context.Context, pollInterval time.Duration
 	return sdkerrors.WithMessagef(o.Error(), "operation (id=%s) failed", o.Id())
 }
 
-func shoudRetry(err error) bool {
-	// status, ok := status.FromError(err)
-	// return ok && status.Code() == codes.NotFound
-	return true
+func shouldRetry(err error) bool {
+	status, ok := status.FromError(err)
+	return ok && (status.Code() == codes.Unavailable || status.Code() == codes.NotFound)
 }
